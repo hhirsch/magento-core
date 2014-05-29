@@ -6,10 +6,5 @@
     "homepage": "http://www.magentocommerce.com",
     "require": {
         "magento-hackathon/magento-composer-installer": "*"
-    },
-    "require-dev": {        
-    },
-    "extra": {
-        "magento-root-dir": "root/"
     }
 }
