@@ -80,4 +80,5 @@ $mageRunCode = isset($_SERVER['MAGE_RUN_CODE']) ? $_SERVER['MAGE_RUN_CODE'] : ''
 /* Run store or run website */
 $mageRunType = isset($_SERVER['MAGE_RUN_TYPE']) ? $_SERVER['MAGE_RUN_TYPE'] : 'store';
 
+require_once MAGENTO_ROOT . '/app/code/community/Aydus/GeoStores/includes/GeoStores.php';
 Mage::run($mageRunCode, $mageRunType);
